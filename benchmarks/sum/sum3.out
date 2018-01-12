@@ -1,0 +1,12 @@
+# Equations for "sum3" written by ABC on Fri Jan 12 17:21:19 2018
+INORDER = x1 x2 x3;
+OUTORDER = x5 x8;
+n5 = x2 * x3;
+n6 = !x2 * !x3;
+n7 = !n5 * !n6;
+n8 = x1 * n7;
+n9 = !x1 * !n7;
+x5 = !n8 * !n9;
+n11 = !n5 * !n8;
+x8 = !n11;
+
